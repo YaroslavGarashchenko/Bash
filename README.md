@@ -20,5 +20,7 @@ Self-check:
 1
 - second script run results contain 0 as the last output
 Helpful materials:
+
 https://tldp.org/LDP/abs/html/internalvariables.html
+
 https://devhints.io/bash
