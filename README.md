@@ -1,7 +1,7 @@
 # Bash
 Tasks for bash (DevOps training at EPAM University)
 
-01 Task
+01 Task (script_special_var.sh)
 - create a script that does the following:
   prints the name of the script
   prints all arguments
