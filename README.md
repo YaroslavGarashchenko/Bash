@@ -19,11 +19,6 @@ Self-check:
 2 world
 1
 - second script run results contain 0 as the last output
-Helpful materials:
-
-https://tldp.org/LDP/abs/html/internalvariables.html
-
-https://devhints.io/bash
 
 02 Task (script_cond_oper.sh)
 - create a script file in your home directory that does the following:
@@ -48,8 +43,3 @@ Self-check:
 1
 0
 0
-Helpful materials:
-
-https://tldp.org/LDP/abs/html/testconstructs.html
-
-https://devhints.io/bash
