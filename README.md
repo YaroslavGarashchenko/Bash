@@ -43,3 +43,30 @@ Self-check:
 1
 0
 0
+
+03 Task (odd_even.sh and my_script.sh)
+- create a script called odd_even.sh that does the following:
+takes one argument
+if the number of letters in the argument is odd, outputs the message "Odd", else if the number of letters is even - outputs "Even"
+- run the script first with "odd" argument, then with "even" argument
+- create a script called my_script.sh that does the following:
+takes any number of arguments
+if there are less than 2 arguments, output the values of these arguments
+if there are more than 2 but less than 4 arguments, output only the last argument
+else output "Invalid number of arguments" message
+- run my_script.sh with the following arguments:
+hello
+hello world
+pie is lie
+keep calm and procrastinate
+
+Self-check:
+- odd_even.sh script outputs:
+first run: Odd
+second run: Even
+- my_script.sh script outputs:
+hello
+Invalid number of arguments
+lie
+Invalid number of arguments
+
