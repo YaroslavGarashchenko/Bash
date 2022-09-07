@@ -7,7 +7,11 @@
 if (( $# < 2 )); then
    echo $*
 elif (( $# > 2 && $# < 4 )); then
-   echo $3
+   #echo $3 # - first variant
+   for i in $*; do
+       last=$i
+   done
+   echo $last
 else
    echo "Invalid number of arguments"
 fi
