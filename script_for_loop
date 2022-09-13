@@ -1,0 +1,18 @@
+#Task
+#create a script that does the following:
+#accepts any number of int arguments
+#outputs the sum of all arguments
+#outputs the number of arguments
+#outputs the average of all arguments
+#execute your script with the following arguments 1 2 3 4 5
+
+sum=0
+
+for i in $*; do
+    sum=$[$sum+$i]
+    #echo $i
+done
+
+echo "Sum:" $sum
+echo "Args number:" $#
+echo "Result (average of all arguments):" $[$sum/$#]
