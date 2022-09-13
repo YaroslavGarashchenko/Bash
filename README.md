@@ -70,3 +70,15 @@ Invalid number of arguments
 lie
 Invalid number of arguments
 
+04 Task (script_for_loop)
+- create a script that does the following:
+accepts any number of int arguments
+outputs the sum of all arguments
+outputs the number of arguments
+outputs the average of all arguments
+- execute your script with the following arguments 1 2 3 4 5
+Self-check:
+- your script outputs the following:
+Sum: 15
+Args number: 5
+Result: 3
