@@ -1,5 +1,5 @@
-# Bash
-Tasks for bash (DevOps training at EPAM University)
+# Bash, Python
+Tasks for Bash and Python (DevOps training at EPAM University)
 
 01 Task (script_special_var.sh)
 - create a script that does the following:
