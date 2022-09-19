@@ -1,8 +1,8 @@
 # Bash, Python
 Tasks for Bash and Python (DevOps training at EPAM University)
-
+###
 01 Task (script_special_var.sh)
-- create a script that does the following:
+Create a script that does the following:
   prints the name of the script
   prints all arguments
   prints the number of arguments passed to the script
@@ -21,7 +21,7 @@ Self-check:
 - second script run results contain 0 as the last output
 
 02 Task (script_cond_oper.sh)
-- create a script file in your home directory that does the following:
+Create a script file in your home directory that does the following:
   checks if 1st and 2nd string arguments are equal and outputs the exit code of this operation
   checks if 1st string argument is longer than 2nd string argument and outputs the exit code of this operation
   checks if variable TEST is present in the environment (has non-zero length) and outputs the exit code of this operation
@@ -45,7 +45,7 @@ Self-check:
 0
 
 03 Task (odd_even.sh and my_script.sh)
-- create a script called odd_even.sh that does the following:
+Create a script called odd_even.sh that does the following:
 takes one argument
 if the number of letters in the argument is odd, outputs the message "Odd", else if the number of letters is even - outputs "Even"
 - run the script first with "odd" argument, then with "even" argument
@@ -84,7 +84,7 @@ Args number: 5
 Result: 3
 
 05 Task (console.sh)
-create console.sh script that does the following:
+Create console.sh script that does the following:
 implements console functionality - infinite loop that reads user input on each iteration
 supports commands:
 ls [dir] - lists the contents of specified directory
@@ -102,4 +102,20 @@ hi
 Hello Uladzimir_Semiankou
 exit
   
-13 Task (13script)
+13 Task (13script_until_loop.sh)
+Create a script that does the following:
+reads a filename from user input
+combines specifyed file with itself until it reaches a size greater than 1024 KB
+- create a file using head -c 4KB /dev/urandom > file.txt command
+- execute your script passing the file you've just created
+Self-check:
+- script returns the following output:
+Filesize: 8
+Filesize: 16
+Filesize: 32
+Filesize: 64
+Filesize: 128
+Filesize: 256
+Filesize: 504
+Filesize: 1004
+Filesize: 2004
