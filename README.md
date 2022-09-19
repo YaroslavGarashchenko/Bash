@@ -121,8 +121,7 @@ Filesize: 1004
 Filesize: 2004
 
   14 Task (script14_positional_arg.sh)
-Tasks:
-- create a script that does the following:
+Create a script that does the following:
 accepts any number of arguments
 prints all arguments in the following format "Arg1: <arg1 value>", "Arg2: <arg2 value>"
 adds the value of the next argument to the previous one and prints it out (for the last argument add the value of the first one)
@@ -177,3 +176,15 @@ A lovely sunset.
 Task finished
   
 16 Task
+Create a script that does the following:
+has a function that multiplies the argument passed to it by itself
+has a second function that passes each argument passed to the script to the first function and increases the result by 1 and outputs to the console
+- run your function with the following arguments: 5 6 1 3 9
+Self-check:
+- function returns the following output:
+26
+37
+2
+10
+82
+  
