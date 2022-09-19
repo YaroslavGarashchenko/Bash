@@ -137,3 +137,43 @@ Arg5: 4
 Arg6: 3
 Arg7: 6
 8 6 12 11 7 9 13
+
+15 Task (script15_input_output.sh)
+Create a script that does the following:
+asks the user to input a filename
+writes the following poem to the file specified by user:
+An old silent pond...
+A frog jumps into the pond,
+splash! Silence again.
+
+Autumn moonlight-
+a worm digs silently
+into the chestnut.
+
+In the twilight rain
+these brilliant-hued hibiscus -
+A lovely sunset.
+
+outputs the poem to the terminal
+outputs the message "Task finished" to stderr
+- run your script, specify output as the file to write the poem to, redirect stdout to /dev/null, redirect stderr to stderr file
+
+Self-check:
+- script returns no output
+- cat output command returns:
+An old silent pond...
+A frog jumps into the pond,
+splash! Silence again.
+
+Autumn moonlight-
+a worm digs silently
+into the chestnut.
+
+In the twilight rain
+these brilliant-hued hibiscus -
+A lovely sunset.
+
+- cat stderr command returns:
+Task finished
+  
+16 Task
